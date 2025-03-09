@@ -1,0 +1,21 @@
+.demo_app {
+ display: flex;
+ min-height: 100%;
+ font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+ font-size: 14px;
+}
+
+.demo_app_sidebar {
+ width: 300px;
+ line-height: 1.5;
+ border-right: 1px solid #d3e2e8;
+}
+
+.demo_app_sidebar_section {
+ padding: 2em;
+}
+
+.demo_app_main {
+ flex-grow: 1;
+ padding: 3em;
+}
